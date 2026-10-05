@@ -8,10 +8,11 @@ import DibujosComplejosArray from './components/DibujosComplejosArray';
 import DibujosComplejosRender from './components/DibujosComplejosRender';
 import PadreDeporte from './components/PadreDeporte';
 import PadreNumero from './components/PadreNumeros';
+import Comics from './components/Comics';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PadreNumero/>
+    <Comics/>
   </React.StrictMode>
 );
 
