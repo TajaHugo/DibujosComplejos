@@ -8,7 +8,7 @@ import DibujosComplejosArray from './components/DibujosComplejosArray';
 import DibujosComplejosRender from './components/DibujosComplejosRender';
 import PadreDeporte from './components/PadreDeporte';
 import PadreNumero from './components/PadreNumeros';
-import Comics from './components/Comics';
+import Comics from './components/Comics/Comics';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
